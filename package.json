@@ -1,0 +1,26 @@
+{
+	"name": "minimized",
+	"displayName": "Minimized",
+	"description": "A minimalist take on Solarized",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.80.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Minimized Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/minimized-dark.json"
+			},
+			{
+				"label": "Minimized Light",
+				"uiTheme": "vs",
+				"path": "./themes/minimized-light.json"
+			}
+		]
+	}
+}

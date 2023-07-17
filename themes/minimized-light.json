@@ -1,0 +1,124 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"name": "Minimized Light",
+	"tokenColors": [
+		{
+			"name": "Comments",
+			"scope": ["comment", "punctuation.definition.comment"],
+			"settings": {
+				"foreground": "#cb4b16"
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": ["string", "string.regexp", "constant.other.symbol"],
+			"settings": {
+				"foreground": "#859900"
+			}
+		},
+		{
+			"name": "Strings: Escape Sequences",
+			"scope": "constant.character.escape",
+			"settings": {
+				"foreground": "#93a1a1"
+			}
+		},
+		{
+			"name": "Numbers, Characters",
+			"scope": ["constant.numeric", "constant.character", "constant.keyword", "constant"],
+			"settings": {
+				"foreground": "#d33682"
+			}
+		},
+		{
+			"name": "Global definitions",
+			"scope": "entity.name",
+			"settings": {
+				"foreground": "#268bd2"
+			}
+		},
+		{
+			"name": "Punctuation",
+			"scope": "punctuation",
+			"settings": {
+				"foreground": "#93a1a1"
+			}
+		},
+		{
+			"name": "Invalid",
+			"scope": "invalid",
+			"settings": {
+				"foreground": "#dc322f"
+			}
+		},
+		{
+			"name": "Extra: Diff Range",
+			"scope": ["meta.diff.range", "meta.diff.index", "meta.separator"],
+			"settings": {
+				"foreground": "#434343"
+			}
+		},
+		{
+			"name": "Extra: Diff From",
+			"scope": "meta.diff.header.from-file",
+			"settings": {
+				"foreground": "#434343"
+			}
+		},
+		{
+			"name": "Extra: Diff To",
+			"scope": "meta.diff.header.to-file",
+			"settings": {
+				"foreground": "#434343"
+			}
+		}
+	],
+	"colors": {
+		"editorLineNumber.foreground": "#93a1a1",
+		"editorGutter.background": "#00000000",
+		"editorIndentGuide.background": "#eee8d5",
+		"editorIndentGuide.activeBackground": "#93a1a1",
+		"menu.foreground": "#657b83",
+		"foreground": "#657b83",
+		"terminal.foreground": "#657b83",
+		"editor.foreground": "#586e75",
+		"editor.background": "#fdf6e3",
+		"editorGroupHeader.border": "#eee8d5",
+		"editorGroupHeader.tabsBackground": "#fdf6e3",
+		"activityBar.border": "#eee8d5",
+		"activityBar.background": "#fdf6e3",
+		"activityBar.foreground": "#657b83",
+		"activityBar.inactiveForeground": "#657b83",
+		"activityBar.activeBorder": "#268bd2",
+		"input.background": "#eee8d5",
+		"sideBar.background": "#fdf6e3",
+		"sideBar.border": "#eee8d5",
+		"sideBar.foreground": "#657b83",
+		"sideBarSectionHeader.border": "#eee8d5",
+		"sideBarSectionHeader.background": "#fdf6e3",
+		"list.inactiveSelectionBackground": "#eee8d5",
+		"list.hoverForeground": "#586e75",
+		"panel.background": "#fdf6e3",
+		"statusBar.background": "#fdf6e3",
+		"statusBar.border": "#eee8d5",
+		"titleBar.activeBackground": "#fdf6e3",
+		"titleBar.border": "#eee8d5",
+		"tab.border": "#eee8d5",
+		"tab.activeForeground": "#586e75",
+		"tab.activeBackground": "#fdf6e3",
+		"tab.activeBorder": "#fdf6e3",
+		"tab.activeBorderTop": "#268bd2",
+		"tab.inactiveForeground": "#657b83",
+		"tab.inactiveBackground": "#fdf6e3",
+		"gitDecoration.ignoredResourceForeground": "#cb4b16",
+		"gitDecoration.modifiedResourceForeground": "#b58900",
+		"gitDecoration.addedResourceForeground": "#2aa198",
+		"gitDecoration.conflictingResourceForeground": "#e4676b",
+		"gitDecoration.deletedResourceForeground": "#dc322f",
+		"gitDecoration.renamedResourceForeground": "#859900",
+		"gitDecoration.stageDeletedResourceForeground": "#dc322f",
+		"gitDecoration.stageModifiedResourceForeground": "#b58900",
+		"gitDecoration.submoduleResourceForeground": "#268bd2",
+		"gitDecoration.untrackedResourceForeground": "#859900"
+	}
+}
