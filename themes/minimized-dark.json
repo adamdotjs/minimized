@@ -43,8 +43,8 @@
 			}
 		},
 		{
-			"name": "Variables",
-			"scope": ["variable.other"],
+			"name": "Variables, Property Names",
+			"scope": ["variable.other", "support.type.property-name"],
 			"settings": {
 				"foreground": "#93A1A1"
 			}
