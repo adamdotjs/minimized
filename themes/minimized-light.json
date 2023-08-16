@@ -3,85 +3,65 @@
 	"name": "Minimized Light",
 	"tokenColors": [
 		{
-			"name": "Comments",
+			"name": "COMMENTS",
 			"scope": ["comment", "punctuation.definition.comment"],
 			"settings": {
 				"foreground": "#cb4b16"
 			}
 		},
 		{
-			"name": "Strings",
-			"scope": [
-				"string",
-				"string.regexp",
-				"constant.other.symbol",
-				"punctuation.definition.string"
-			],
-			"settings": {
-				"foreground": "#859900"
-			}
-		},
-		{
-			"name": "Strings: Escape Sequences",
-			"scope": "constant.character.escape",
-			"settings": {
-				"foreground": "#657b83"
-			}
-		},
-		{
-			"name": "Numbers, Characters",
-			"scope": ["constant.numeric", "constant.character", "constant.keyword", "constant"],
-			"settings": {
-				"foreground": "#d33682"
-			}
-		},
-		{
-			"name": "Global definitions",
-			"scope": "entity.name",
+			"name": "KEYWORDS",
+			"scope": ["keyword", "storage"],
 			"settings": {
 				"foreground": "#268bd2"
 			}
 		},
 		{
-			"name": "Variables, Property Names",
-			"scope": ["variable.other", "support.type.property-name"],
+			"name": "CONSTANTS",
+			"scope": "constant",
+			"settings": {
+				"foreground": "#6c71c4"
+			}
+		},
+		{
+			"name": "VARIABLES, GLOBAL DEFINITIONS - RESET TO DEFAULT FG TO AVOID UNEXPECTED COLOR IN STRINGS",
+			"scope": ["variable", "entity", "support"],
 			"settings": {
 				"foreground": "#586e75"
 			}
 		},
 		{
-			"name": "Punctuation",
-			"scope": ["punctuation", "meta.embedded"],
+			"scope": "entity.name",
 			"settings": {
-				"foreground": "#657b83"
+				"foreground": "#586e75"
 			}
 		},
 		{
-			"name": "Invalid",
+			"name": "STRINGS",
+			"scope": ["string", "string.regexp"],
+			"settings": {
+				"foreground": "#859900"
+			}
+		},
+		{
+			"name": "HTML TAGS",
+			"scope": ["entity.name.tag", "support.class.component"],
+			"settings": {
+				"foreground": "#268bd2"
+			}
+		},
+		{
+			"name": "PUNCTUATION",
+			"scope": ["punctuation", "meta.brace", "constant.character.escape"],
+			"settings": {
+				"foreground": "#839496"
+			}
+		},
+		{
+			"name": "INVALID STATE",
 			"scope": "invalid",
 			"settings": {
 				"foreground": "#dc322f"
-			}
-		},
-		{
-			"name": "Extra: Diff Range",
-			"scope": ["meta.diff.range", "meta.diff.index", "meta.separator"],
-			"settings": {
-				"foreground": "#657b83"
-			}
-		},
-		{
-			"name": "Extra: Diff From",
-			"scope": "meta.diff.header.from-file",
-			"settings": {
-				"foreground": "#657b83"
-			}
-		},
-		{
-			"name": "Extra: Diff To",
-			"scope": "meta.diff.header.to-file",
-			"settings": {
-				"foreground": "#657b83"
 			}
 		}
 	],
