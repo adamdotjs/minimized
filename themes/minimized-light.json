@@ -1,6 +1,7 @@
 {
 	"$schema": "vscode://schemas/color-theme",
 	"name": "Minimized Light",
+	"semanticHighlighting": false,
 	"tokenColors": [
 		{
 			"name": "COMMENTS",
@@ -24,10 +25,10 @@
 			}
 		},
 		{
-			"name": "VARIABLES, GLOBAL DEFINITIONS - RESET TO DEFAULT FG TO AVOID UNEXPECTED COLOR IN STRINGS",
-			"scope": ["variable", "entity", "support"],
+			"name": "RESET SCOPES TO DEFAULT FG TO AVOID UNEXPECTED COLORS",
+			"scope": ["variable", "entity", "support", "meta"],
 			"settings": {
-				"foreground": "#586e75"
+				"foreground": "#657b83"
 			}
 		},
 		{
@@ -63,6 +64,12 @@
 			"settings": {
 				"foreground": "#dc322f"
 			}
+		},
+		{
+			"scope": "markup.heading",
+			"settings": {
+				"foreground": "#268bd2"
+			}
 		}
 	],
 	"colors": {
@@ -80,7 +87,7 @@
 		"dropdown.background": "#eee8d5",
 		"dropdown.border": "#d3af86",
 		"editor.background": "#fdf6e3",
-		"editor.foreground": "#586e75",
+		"editor.foreground": "#657b83",
 		"editor.lineHighlightBackground": "#eee8d5",
 		"editor.selectionBackground": "#eee8d5",
 		"editorCursor.foreground": "#657b83",

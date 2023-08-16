@@ -25,13 +25,14 @@
 			}
 		},
 		{
-			"name": "VARIABLES, GLOBAL DEFINITIONS - RESET TO DEFAULT FG TO AVOID UNEXPECTED COLOR IN STRINGS",
-			"scope": ["variable", "entity", "support"],
+			"name": "RESET SCOPES TO DEFAULT FG TO AVOID UNEXPECTED COLORS",
+			"scope": ["variable", "entity", "support", "meta"],
 			"settings": {
-				"foreground": "#93a1a1"
+				"foreground": "#839496"
 			}
 		},
 		{
+			"name": "GLOBAL DEFINITIONS",
 			"scope": "entity.name",
 			"settings": {
 				"foreground": "#93a1a1"
@@ -64,6 +65,18 @@
 			"settings": {
 				"foreground": "#dc322f"
 			}
+		},
+		{
+			"scope": "markup.heading entity.name",
+			"settings": {
+				"foreground": "#268bd2"
+			}
+		},
+		{
+			"scope": "markup.inline.raw",
+			"settings": {
+				"foreground": "#859900"
+			}
 		}
 	],
 	"colors": {
@@ -80,7 +93,7 @@
 		"dropdown.background": "#00212b",
 		"dropdown.border": "#2aa19899",
 		"editor.background": "#002b36",
-		"editor.foreground": "#93a1a1",
+		"editor.foreground": "#839496",
 		"editor.lineHighlightBackground": "#073642",
 		"editor.selectionBackground": "#274642",
 		"editor.selectionHighlightBackground": "#005a6faa",
