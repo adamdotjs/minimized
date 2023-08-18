@@ -28,7 +28,7 @@
 			"name": "RESET SCOPES TO DEFAULT FG TO AVOID UNEXPECTED COLORS",
 			"scope": ["variable", "entity", "support", "meta"],
 			"settings": {
-				"foreground": "#586e75"
+				"foreground": "#586375"
 			}
 		},
 		{
@@ -49,7 +49,7 @@
 			"name": "PUNCTUATION",
 			"scope": ["punctuation", "meta.brace", "constant.character.escape"],
 			"settings": {
-				"foreground": "#839496"
+				"foreground": "#657b83"
 			}
 		},
 		{
@@ -82,7 +82,7 @@
 		"activityBar.background": "#fdf6e3",
 		"activityBar.border": "#eee8d5",
 		"activityBar.foreground": "#586e75",
-		"activityBar.inactiveForeground": "#586e75",
+		"activityBar.inactiveForeground": "#657b83",
 		"activityBarBadge.background": "#b58900",
 		"badge.background": "#b58900aa",
 		"button.background": "#ac9d57",
@@ -95,15 +95,15 @@
 		"editor.foreground": "#586e75",
 		"editor.lineHighlightBackground": "#eee8d5",
 		"editor.selectionBackground": "#eee8d5",
-		"editorCursor.foreground": "#586e75",
+		"editorCursor.foreground": "#657b83",
 		"editorGroup.border": "#ddd6c1",
 		"editorGroup.dropBackground": "#ddd6c1aa",
 		"editorGroupHeader.border": "#eee8d5",
 		"editorGroupHeader.tabsBackground": "#fdf6e3",
 		"editorGutter.background": "#00000000",
 		"editorHoverWidget.background": "#ccc4b0",
-		"editorIndentGuide.activeBackground": "#93a1a1",
-		"editorIndentGuide.background": "#eee8d5",
+		"editorIndentGuide.activeBackground1": "#93a1a1",
+		"editorIndentGuide.background1": "#eee8d5",
 		"editorLineNumber.activeForeground": "#567983",
 		"editorLineNumber.foreground": "#93a1a1",
 		"editorWhitespace.foreground": "#586e7580",
@@ -111,7 +111,7 @@
 		"extensionButton.prominentBackground": "#b58900",
 		"extensionButton.prominentHoverBackground": "#584c27aa",
 		"focusBorder": "#b49471",
-		"foreground": "#586e75",
+		"foreground": "#657b83",
 		"gitDecoration.addedResourceForeground": "#2aa198",
 		"gitDecoration.conflictingResourceForeground": "#e4676b",
 		"gitDecoration.deletedResourceForeground": "#dc322f",
@@ -132,7 +132,7 @@
 		"list.hoverBackground": "#dfca8844",
 		"list.hoverForeground": "#586e75",
 		"list.inactiveSelectionBackground": "#eee8d5",
-		"menu.foreground": "#586e75",
+		"menu.foreground": "#657b83",
 		"minimap.selectionHighlight": "#eee8d5",
 		"notebook.cellEditorBackground": "#f7f0e0",
 		"panel.background": "#fdf6e3",
@@ -150,14 +150,14 @@
 		"selection.background": "#878b9180",
 		"sideBar.background": "#fdf6e3",
 		"sideBar.border": "#eee8d5",
-		"sideBar.foreground": "#586e75",
+		"sideBar.foreground": "#657b83",
 		"sideBarSectionHeader.background": "#fdf6e3",
 		"sideBarSectionHeader.border": "#eee8d5",
-		"sideBarTitle.foreground": "#586e75",
+		"sideBarTitle.foreground": "#657b83",
 		"statusBar.background": "#fdf6e3",
 		"statusBar.border": "#eee8d5",
 		"statusBar.debuggingBackground": "#eee8d5",
-		"statusBar.foreground": "#586e75",
+		"statusBar.foreground": "#657b83",
 		"statusBar.noFolderBackground": "#eee8d5",
 		"statusBarItem.prominentBackground": "#ddd6c1",
 		"statusBarItem.prominentHoverBackground": "#ddd6c199",
@@ -169,7 +169,7 @@
 		"tab.activeModifiedBorder": "#cb4b16",
 		"tab.border": "#eee8d5",
 		"tab.inactiveBackground": "#fdf6e3",
-		"tab.inactiveForeground": "#586e75",
+		"tab.inactiveForeground": "#657b83",
 		"tab.lastPinnedBorder": "#fdf6e3",
 		"terminal.ansiBlack": "#073642",
 		"terminal.ansiBlue": "#268bd2",
@@ -188,7 +188,7 @@
 		"terminal.ansiWhite": "#eee8d5",
 		"terminal.ansiYellow": "#b58900",
 		"terminal.background": "#fdf6e3",
-		"terminal.foreground": "#586e75",
+		"terminal.foreground": "#657b83",
 		"titleBar.activeBackground": "#fdf6e3",
 		"titleBar.border": "#eee8d5",
 		"walkThrough.embeddedEditorBackground": "#00000014"
