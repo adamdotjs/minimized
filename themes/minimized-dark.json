@@ -28,7 +28,7 @@
 			"name": "RESET SCOPES TO DEFAULT FG TO AVOID UNEXPECTED COLORS",
 			"scope": ["variable", "entity", "support", "meta"],
 			"settings": {
-				"foreground": "#93a1a1"
+				"foreground": "#839496"
 			}
 		},
 		{
@@ -49,7 +49,7 @@
 			"name": "PUNCTUATION",
 			"scope": ["punctuation", "meta.brace", "constant.character.escape"],
 			"settings": {
-				"foreground": "#839496"
+				"foreground": "#657b83"
 			}
 		},
 		{
@@ -97,7 +97,7 @@
 		"dropdown.background": "#00212b",
 		"dropdown.border": "#2aa19899",
 		"editor.background": "#002b36",
-		"editor.foreground": "#93a1a1",
+		"editor.foreground": "#839496",
 		"editor.lineHighlightBackground": "#073642",
 		"editor.selectionBackground": "#274642",
 		"editor.selectionHighlightBackground": "#005a6faa",
