@@ -12,7 +12,7 @@
 		},
 		{
 			"name": "KEYWORDS",
-			"scope": ["keyword", "storage"],
+			"scope": ["keyword", "storage", "punctuation.definition.variable"],
 			"settings": {
 				"foreground": "#268bd2"
 			}
@@ -28,7 +28,7 @@
 			"name": "RESET SCOPES TO DEFAULT FG TO AVOID UNEXPECTED COLORS",
 			"scope": ["variable", "entity", "support", "meta"],
 			"settings": {
-				"foreground": "#839496"
+				"foreground": "#93a1a1"
 			}
 		},
 		{
@@ -40,7 +40,7 @@
 		},
 		{
 			"name": "HTML TAGS",
-			"scope": ["entity.name.tag", "support.class.component"],
+			"scope": ["entity.name.tag", "support.class.component", "punctuation.definition.tag"],
 			"settings": {
 				"foreground": "#268bd2"
 			}
@@ -49,7 +49,7 @@
 			"name": "PUNCTUATION",
 			"scope": ["punctuation", "meta.brace", "constant.character.escape"],
 			"settings": {
-				"foreground": "#657b83"
+				"foreground": "#93a1a1"
 			}
 		},
 		{
@@ -97,7 +97,7 @@
 		"dropdown.background": "#00212b",
 		"dropdown.border": "#2aa19899",
 		"editor.background": "#002b36",
-		"editor.foreground": "#839496",
+		"editor.foreground": "#93a1a1",
 		"editor.lineHighlightBackground": "#073642",
 		"editor.selectionBackground": "#274642",
 		"editor.selectionHighlightBackground": "#005a6faa",
