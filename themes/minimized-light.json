@@ -19,7 +19,14 @@
 		},
 		{
 			"name": "KEYWORDS",
-			"scope": ["keyword", "storage", "punctuation.definition.variable", "variable.language"],
+			"scope": [
+				"keyword",
+				"storage",
+				"punctuation.definition.variable",
+				"punctuation.definition.keyword",
+				"punctuation.definition.directive",
+				"variable.language"
+			],
 			"settings": {
 				"foreground": "#268bd2"
 			}
