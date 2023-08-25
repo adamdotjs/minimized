@@ -188,7 +188,7 @@
 		"terminal.ansiWhite": "#eee8d5",
 		"terminal.ansiYellow": "#b58900",
 		"terminal.background": "#fdf6e3",
-		"terminal.foreground": "#657b83",
+		"terminal.foreground": "#586e75",
 		"titleBar.activeBackground": "#fdf6e3",
 		"titleBar.border": "#eee8d5",
 		"walkThrough.embeddedEditorBackground": "#00000014"

@@ -203,7 +203,7 @@
 		"terminal.ansiRed": "#dc322f",
 		"terminal.ansiWhite": "#eee8d5",
 		"terminal.ansiYellow": "#b58900",
-		"terminal.foreground": "#839496",
+		"terminal.foreground": "#93a1a1",
 		"titleBar.activeBackground": "#002b36",
 		"titleBar.border": "#073642"
 		//"activityBar.dropBorder": "#93a1a1",
